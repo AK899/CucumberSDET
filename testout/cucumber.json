@@ -1,0 +1,183 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15874000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "We shud be in Login Page",
+            "match": {
+              "location": "stepdefinition.steps.we_shud_be_in_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-08T10:09:38.325Z",
+        "line": 8,
+        "name": "To validate login with valid credentials",
+        "description": "",
+        "id": "validate-login-page;to-validate-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2343000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter valid name",
+            "match": {
+              "location": "stepdefinition.steps.enter_valid_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2251000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter valid password",
+            "match": {
+              "location": "stepdefinition.steps.enter_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8753000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on login button when valid",
+            "match": {
+              "location": "stepdefinition.steps.click_on_login_button_when_valid()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3855000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Login Should be Success",
+            "match": {
+              "location": "stepdefinition.steps.login_should_be_success()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@validcase"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11943000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "We shud be in Login Page",
+            "match": {
+              "location": "stepdefinition.steps.we_shud_be_in_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-08T10:10:11.737Z",
+        "line": 14,
+        "name": "To login with invalid credentials",
+        "description": "",
+        "id": "validate-login-page;to-login-with-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2301000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Enter Invalid name",
+            "match": {
+              "location": "stepdefinition.steps.enter_invalid_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2225000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Enter Invalid pwd",
+            "match": {
+              "location": "stepdefinition.steps.enter_invalid_pwd()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4998000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on Login button when invalid",
+            "match": {
+              "location": "stepdefinition.steps.click_on_login_button_when_invalid()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3507000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Login fails",
+            "match": {
+              "location": "stepdefinition.steps.login_fails()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@invalidcase"
+          }
+        ]
+      }
+    ],
+    "name": "Validate Login Page",
+    "description": "This applicaiton includes validating login application \n1) valid case\n2) Invalid case",
+    "id": "validate-login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login/Login.feature",
+    "tags": []
+  }
+]
